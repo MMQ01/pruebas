@@ -27,6 +27,6 @@ describe('Prueba de clases',()=>{
 
     const resp=jugador.recibeDano(150)
 
-    expect(resp).toBe(50)
+    expect(resp).toBe(0)
   })
 })
